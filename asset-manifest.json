@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/message-diff-tool-react/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/message-diff-tool-react/static/js/main.e08f4fa1.chunk.js",
+    "main.js.map": "/message-diff-tool-react/static/js/main.e08f4fa1.chunk.js.map",
+    "runtime-main.js": "/message-diff-tool-react/static/js/runtime-main.6b5eaeb9.js",
+    "runtime-main.js.map": "/message-diff-tool-react/static/js/runtime-main.6b5eaeb9.js.map",
+    "static/css/2.54a1383f.chunk.css": "/message-diff-tool-react/static/css/2.54a1383f.chunk.css",
+    "static/js/2.8de5e30a.chunk.js": "/message-diff-tool-react/static/js/2.8de5e30a.chunk.js",
+    "static/js/2.8de5e30a.chunk.js.map": "/message-diff-tool-react/static/js/2.8de5e30a.chunk.js.map",
+    "index.html": "/message-diff-tool-react/index.html",
+    "precache-manifest.1a93c69e999f0b83c14ccf3b8b000ef7.js": "/message-diff-tool-react/precache-manifest.1a93c69e999f0b83c14ccf3b8b000ef7.js",
+    "service-worker.js": "/message-diff-tool-react/service-worker.js",
+    "static/css/2.54a1383f.chunk.css.map": "/message-diff-tool-react/static/css/2.54a1383f.chunk.css.map",
+    "static/css/main.5ecd60fb.chunk.css.map": "/message-diff-tool-react/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8de5e30a.chunk.js.LICENSE.txt": "/message-diff-tool-react/static/js/2.8de5e30a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/message-diff-tool-react/static/media/roboto-latin-900-normal.bb1e4dc6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b5eaeb9.js",
+    "static/css/2.54a1383f.chunk.css",
+    "static/js/2.8de5e30a.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.e08f4fa1.chunk.js"
+  ]
+}
