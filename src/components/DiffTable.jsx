@@ -14,19 +14,7 @@ const useStyles = makeStyles({
   },
 });
 
-function createData(name, calories, fat) {
-  return { name, calories, fat};
-}
-
-const rows = [
-  createData('Frozen yoghurt', 159, 6.0),
-  createData('Ice cream sandwich', 237, 9.0),
-  createData('Eclair', 262, 16.0),
-  createData('Cupcake', 305, 3.7),
-  createData('Gingerbread', 356, 16.0),
-];
-
-export default function DiffTable() {
+export default function DiffTable({diff}) {
   const classes = useStyles();
 
   return (
@@ -40,15 +28,15 @@ export default function DiffTable() {
           </TableRow>
         </TableHead>
         <TableBody>
-          {rows.map((row) => (
-            <TableRow key={row.name}>
-              <TableCell component="th" scope="row">
-                {row.name}
-              </TableCell>
-              <TableCell align="left">{row.calories}</TableCell>
-              <TableCell align="left">{row.fat}</TableCell>
-            </TableRow>
-          ))}
+        {
+          Object.keys(diff).map((key) => (
+            <TableRow key={key}>
+              <TableCell component="th" scope="row">{key}</TableCell>
+              <TableCell align="left">{diff[key].left}</TableCell>
+              <TableCell align="left">{diff[key].right}</TableCell>
+          </TableRow>
+          ))
+        }
         </TableBody>
       </Table>
     </TableContainer>

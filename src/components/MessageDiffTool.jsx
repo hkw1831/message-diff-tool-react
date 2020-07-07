@@ -29,13 +29,18 @@ function MessageDiffTool() {
               <TextField id="standard-basic" label="Message 2" variant="outlined" multiline fullWidth onChange={(e) => dispatch(updateRightMessage(e.target.value))}/>
           </Grid>
           <Grid item xs={12}>
-              <DiffTable />
+              <DiffTable diff={useSelector(state => state.value.diff)}/>
           </Grid>
         </Grid>
-
-        Left: {useSelector(state => state.value.left)}
-        <br/>
-        Right: {useSelector(state => state.value.right)}
+        {
+          /*
+          Left: {useSelector(state => state.value.left)}
+          <br/>
+          Right: {useSelector(state => state.value.right)}
+          <br/>
+          Diff: {JSON.stringify(useSelector(state => state.value.diff))}
+          */
+        }
       </div>
     );
     }
